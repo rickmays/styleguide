@@ -4,19 +4,40 @@ html, body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    font-family: 'Work Sans';
 }
 h1 {
     margin-left: 5vw;
     margin-bottom: 1vh;
-    font-family: 'Work Sans';
     font-weight: 900;
     font-size: 8vmin;
+}
+h2 {
+    margin: 2vw;
+    font-size: 5vh;
+    font-style: italic;
+}
+p {
+    color: white;
 }
 #colors-section {
     margin: 0 5vw;
     height: 90vh;
     width: 90vw;
     border: 1px solid black;
-
+    box-sizing: border-box;
+}
+#colors-section > div {
+    margin: 2vw;
+    width: 10vw;
+    padding: 1vh 6vw;
+    text-align: center;
+    display: inline-block;
+}
+#bright-eggplant {
+    background-color: #721B65;
+}
+#radical-rose {
+    background-color: #B80D57;
 }
