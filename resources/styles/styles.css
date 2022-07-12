@@ -7,6 +7,9 @@ html, body
     overflow-x: hidden;
     font-family: 'Work Sans';
 }
+body {
+    margin: 0px 0px;
+}
 h1 {
     margin-left: 1vmax;
     margin-bottom: 1vh;
@@ -22,17 +25,16 @@ p {
     color: white;
 }
 #colors-section {
-    margin: 0 1vmax;
+    margin: 0 1vmin;
     padding: 1vmax;
-    height: 90vh;
-    width: 90vw;
+    width: 98vw;
     border: 1px solid black;
     box-sizing: border-box;
 }
 #colors-section > div {
     display: flex;
-    width: 95%;
-    margin: 1vmax 1vmax;
+    width: 98%;
+    margin: 1vmin 1vmin;
     text-align: center;
     display: inline-block;
 }
@@ -47,4 +49,32 @@ p {
 }
 #faded-school-bus {
     background-color: #FFD868;
+}
+#fonts-section {
+    margin: 0 1vmin;
+    padding: 1vmax;
+    width: 98vw;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+#fonts-section > div {
+    display: flex;
+    width: 98%;
+    margin: 1vmin 1vmin;
+    text-align: center;
+    display: inline-block;
+}
+#text-styles-section {
+    margin: 0 1vmin;
+    padding: 1vmax;
+    width: 98vw;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+#text-styles-section > div {
+    display: flex;
+    width: 98%;
+    margin: 1vmin 1vmin;
+    text-align: center;
+    display: inline-block;
 }
