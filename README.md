@@ -1,0 +1,2 @@
+# Style Guide
+This project is a CodeCademy Full-Stack Engineer project to build a style guide/design system for building other websites in the future. I'll be using it to collect colors, fonts, and some of the repeating styles.
