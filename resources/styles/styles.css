@@ -8,30 +8,31 @@ html, body
     font-family: 'Work Sans';
 }
 h1 {
-    margin-left: 5vw;
+    margin-left: 1vmax;
     margin-bottom: 1vh;
     font-weight: 900;
-    font-size: 8vmin;
+    font-size: 5vmax;
 }
 h2 {
-    margin: 2vw;
-    font-size: 5vh;
+    margin: 1vmax;
+    font-size: 4vmax;
     font-style: italic;
 }
 p {
     color: white;
 }
 #colors-section {
-    margin: 0 5vw;
+    margin: 0 1vmax;
+    padding: 1vmax;
     height: 90vh;
     width: 90vw;
     border: 1px solid black;
     box-sizing: border-box;
 }
 #colors-section > div {
-    margin: 2vw;
-    width: 10vw;
-    padding: 1vh 6vw;
+    display: flex;
+    width: 95%;
+    margin: 1vmax 1vmax;
     text-align: center;
     display: inline-block;
 }
@@ -40,4 +41,10 @@ p {
 }
 #radical-rose {
     background-color: #B80D57;
+}
+#burning-cantaloupe {
+    background-color: #F8615A;
+}
+#faded-school-bus {
+    background-color: #FFD868;
 }
