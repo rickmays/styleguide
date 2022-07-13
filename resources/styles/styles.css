@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Spirit Ginger';
+    src: url(../fonts/Spirit\ Ginger.ttf);
+}
 html, body
 {
     width: 100%;
@@ -20,9 +24,12 @@ h2 {
     margin: 1vmax;
     font-size: 4vmax;
     font-style: italic;
+    color: black;
 }
-p {
-    color: white;
+h3 {
+    font-size: 3vmax;
+    text-decoration: underline;
+    margin: 0;
 }
 #colors-section {
     margin: 0 1vmin;
@@ -30,6 +37,7 @@ p {
     width: 98vw;
     border: 1px solid black;
     box-sizing: border-box;
+    color: white;
 }
 #colors-section > div {
     display: flex;
@@ -56,6 +64,7 @@ p {
     width: 98vw;
     border: 1px solid black;
     box-sizing: border-box;
+    font-size: 2vmax;
 }
 #fonts-section > div {
     display: flex;
@@ -63,6 +72,24 @@ p {
     margin: 1vmin 1vmin;
     text-align: center;
     display: inline-block;
+}
+p.bold {
+    font-weight: 800;
+}
+p.italic {
+    font-style: italic;
+}
+#work-sans {
+    font-family: 'Work Sans';
+}
+#fredoka-one {
+    font-family: 'Fredoka One';
+}
+#raleway {
+    font-family: 'Raleway';
+}
+#spirit-ginger {
+    font-family: 'Spirit Ginger'
 }
 #text-styles-section {
     margin: 0 1vmin;
