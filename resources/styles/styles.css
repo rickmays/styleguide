@@ -9,10 +9,12 @@ html, body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    font-family: 'Work Sans';
 }
 body {
     margin: 0px 0px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 2vmax;
 }
 h1 {
     margin-left: 1vmax;
@@ -25,9 +27,10 @@ h2 {
     font-size: 4vmax;
     font-style: italic;
     color: black;
+    font-weight: 500;
 }
 h3 {
-    font-size: 3vmax;
+    font-size: 2.5vmax;
     text-decoration: underline;
     margin: 0;
 }
@@ -38,6 +41,7 @@ h3 {
     border: 1px solid black;
     box-sizing: border-box;
     color: white;
+
 }
 #colors-section > div {
     display: flex;
@@ -74,7 +78,7 @@ h3 {
     display: inline-block;
 }
 p.bold {
-    font-weight: 800;
+    font-weight: 900;
 }
 p.italic {
     font-style: italic;
@@ -99,9 +103,24 @@ p.italic {
     box-sizing: border-box;
 }
 #text-styles-section > div {
-    display: flex;
-    width: 98%;
-    margin: 1vmin 1vmin;
-    text-align: center;
-    display: inline-block;
+    margin: 1vmin 0 1vmin 8vmin;
+    font-size: 2vmax;
+}
+#main-page-heading {
+    font-weight: 900;
+    font-size: 5vmax;
+    font-family: 'Work Sans';
+    text-decoration: none;
+}
+#sub-heading {
+    font-weight: 500;
+    font-size: 4vmax;
+    font-family: Raleway;
+    text-decoration: none;
+}
+#paragraph-text {
+    font-weight: 400;
+    font-size: 2vmax;
+    font-family: Raleway;
+    text-decoration: none;
 }
